@@ -60,7 +60,6 @@ suppressPackageStartupMessages(library(tidyverse))
 library(gganimate)
 library(glue)
 library(magick)
-library(reactable)
 
 data_batsmen <- read_rds("data_scraped.rds") |> 
   mutate(
